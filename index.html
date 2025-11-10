@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Developers</title>
+
+    <style>
+        .iss-image{
+            width: 25%;
+            height: 25%;
+            border-radius: 8px;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+        .container{
+            margin-top: 100px;
+            /* border: 1px solid red; */
+        }
+        .sub-container{
+            /* border: 1px solid black; */
+        }
+        .supervisor{
+            display: flex;
+        }
+        .supervisor div{
+            /* border: 1px solid black; */
+        }
+        .manager{
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container mt-6">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!--  -->
+            <div class="col">
+                <div class="card">
+                <img src="angelo.jpg" class="card-img-top iss-image" alt="..."  draggable="false">
+                <div class="card-body fs-6">
+                    <h5 class="fs-6 text-center">Angelo Alde Perico (Gelo)</h5>
+                    <!-- <h5 class="text-center fs-6">(Gelo)</h5> -->
+                    <p class="fs-6 text-center">Date Hired: April 03, 2025</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="des.jpg" class="card-img-top iss-image" alt="...">
+                <div class="card-body ">
+                    <h5 class="fs-6 text-center">Desiree Paeldilan Palma (Des)</h5>
+                    <!-- <h5 class="text-center fs-6">(Des)</h5> -->
+                    <div class="fs-6 text-center">Date Hire: May 02, 2025</div>
+                </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="container sub-container">
+                <div class="manager d-flex justify-content-center align-items-center text-center  mb-2">
+                    <div>
+                        <div class="fw-bold fs-5">Manager</div>
+                        <div>Adriane Tiburcio</div>
+                    </div>
+                </div>
+                <div class="supervisor d-flex justify-content-center align-items-center text-center">
+                    <div>
+                        <div class="fw-bold fs-6 mx-5 mt-3">CET Supervisor</div>
+                        <div>Julius Mejia</div>
+                    </div>
+                    <div>
+                        <div class="fw-bold fs-6 mx-5 mt-3">CET Supervisor</div>
+                        <div>Mark Tijam</div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!--  -->
+        </div>
+        <div class="d-flex justify-content-center align-items-center text-center mt-3">
+            <div class="">Email: <span style="color: blue;" class="fst-italic">cetiss00@gmail.com</span></div>
+        </div>
+    </div>
+    
+</body>
+</html>
